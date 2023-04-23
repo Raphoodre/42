@@ -31,17 +31,17 @@ int ft_atoi(const char *str) {
     return sign * result;
 }
 
-int main(int argc, char *argv[])
-{
-    if(!argc)
-        return 0;
-    int native;
-    int mine;
+// int main(int argc, char *argv[])
+// {
+//     if(!argc)
+//         return 0;
+//     int native;
+//     int mine;
 
-    native = atoi(argv[1]);
-    mine = ft_atoi(argv[1]);
-    printf("Atoi : %d", native);
-    printf("\n");
-    printf("My Atoi : %d", mine);
-    return 0;
-}
+//     native = atoi(argv[1]);
+//     mine = ft_atoi(argv[1]);
+//     printf("Atoi : %d", native);
+//     printf("\n");
+//     printf("My Atoi : %d", mine);
+//     return 0;
+// }

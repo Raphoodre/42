@@ -1,16 +1,5 @@
 #include "libft.h"
 
-void ft_bzero(void *s, size_t n)
-{
-    size_t i;
-
-    while (i < n)
-    {
-        *((char *) s + i ) = 0;
-        i++;
-    }
-}
-
 void *ft_calloc(size_t nmemb, size_t size)
 {
     void    *ptr;

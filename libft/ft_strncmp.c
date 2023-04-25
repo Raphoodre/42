@@ -22,11 +22,3 @@ int ft_strncmp(const char *s1, const char *s2, size_t n)
         return(cmp_char(s1[i], s2[i]));
     return (0);
 }
-
-// int main(int argc, char *argv[])
-// {
-//     if(!argc)
-//         return 0;
-    
-//     printf("%d", ft_strncmp(argv[1], argv[2], 5));
-// }
